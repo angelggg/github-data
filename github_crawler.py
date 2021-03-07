@@ -52,7 +52,7 @@ class GithubCrawler:
         :return: Str containing the requested HTML
         """
         # Returns the raw html from the url passed as arg
-        response = requests.get(url=url,)# proxies=self.proxy)
+        response = requests.get(url=url, proxies=self.proxy)
         if response.status_code == 200:
             # Stop to avoid being banned
             time.sleep(0.7)

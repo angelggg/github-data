@@ -9,7 +9,7 @@ input_values = dict(keywords=[
             '112.169.9.162:8081',
             '109.172.57.250:23500',
             '105.208.44.183:53480'
-            ], type='Repositories')
+            ], type='Issues')
 
 html_processor = HTMLProcessor()
 
